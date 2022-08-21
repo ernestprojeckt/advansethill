@@ -1,6 +1,5 @@
 <?php
 
-
 class User
 {
     private string $name;
@@ -43,9 +42,9 @@ $user = new User();
 try {
     $user->setEmail('newtestemail@mail.com');
 } catch (Exception $e) {
-    var_dump("Error message: \"{$e->getMessage()}\" in {$e->getFile()}:{$e->getLine()}!!!");
+    d("Error message: \"{$e->getMessage()}\" in {$e->getFile()}:{$e->getLine()}!!!");
 } finally {
     $user->setName('Taras');
     $user->setAge(32);
-    var_dump($user->getAll());
+    dd($user->getAll());
 }

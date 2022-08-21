@@ -1,0 +1,15 @@
+{
+    "name": "user/newhill",
+    "autoload": {
+        "psr-4": {
+            "User\\Newhill\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ernestprojeckt",
+            "email": "vurvnat337@gmail.com"
+        }
+    ],
+    "require": {}
+}

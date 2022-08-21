@@ -40,7 +40,7 @@ $users = new User();
 
 try {
     $users->setPassword('98765431');
-    $users->setId('2700');
+    $users->setId('2700a');
 } catch (PassException $pass) {
     echo $pass->getmessage() . $pass->getFile() . $pass->getLine();
 } catch (IdException $id) {
@@ -48,3 +48,4 @@ try {
 } catch (Exception $e) {
     echo $e->getmessage();
 }
+
